@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    background-color: #121725;
+    height: 100vh;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid white;
+}
+
+.container {
+    width: 1200px;
+    height: 650px;
+    position: relative;
+    border: 1px solid white;
+}
+
+
+.logo img{
+    position: absolute;
+    top:-28px;
+    left: 0;
+    z-index: 2;
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 88px 58px 0 0;
+    width: 710px;
+    height: 500px;
+    bottom: 0;
+    left: 0;
+    background: #121725;
+    border: 1px solid white;
+}
+
+
+.description h1 {
+    display: block;
+    font-weight: 100;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #54E6AF;
+}
+
+h1 span {
+    color: white;
+}
+
+
+.description p {
+    width: 445px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #C2CBE5;
+    margin-top: 20px;
+}
+
+
+.emailContent {
+    position: relative;
+    width: 55%;
+    height: 50px;
+    border: 1px solid green;
+    margin: 40px 0 20px 0;
+}
+
+
+.child1 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.child2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.emailValue {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #2C344B;
+    border-radius: 30px;
+    line-height: 28px;
+    z-index: -1;
+}
+
+.request {
+    padding: 10px;
+    background-color: #54E6AF;
+    border-radius: 30px;
+    border: none;
+    line-height: 28px;
+    font-size: 0.93rem;
+    color: #121725;
+    font-weight: 600;
+    z-index: 2;
+}
+
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    margin-top: 60px;
+}
+
+img.spotify {
+    width: 17.2%;
+}
+
+img.apple {
+    width: 14%;
+}
+
+img.google {
+    width: 22.28%;
+}
+
+img.pocket {
+    width: 23.5%;
+}
+
+
+.imageContent{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hostImg{
+    position: relative;
+    width: 800px;
+    height: 650px;
+    z-index: -1;
+}
