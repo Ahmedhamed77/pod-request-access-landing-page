@@ -26,10 +26,12 @@
                 <div class="socialContainer">
                     <div class="emailContent">
                         <div class="child1">
-                            <input type="email" name="email" class="emailValue" required placeholder="Email address">
+                            <input type="email" name="email" id="emailInput" class="emailValue" required placeholder="Email address">
                         </div>
                         <div class="child2">
-                            <input type="submit" class="request" value="Request access">
+                            <input type="submit"  id="validation" class="request" value="Request access">
+                        </div>
+                        <div class="error" id="error">
                         </div>
                     </div>
                     <div class="brands">
@@ -49,6 +51,7 @@
 </div>
 </div>
 
+<script src="jquery/jquery-3.5.1.min.js"></script>
 <script src="index.js"></script>
 </body>
 </html>

@@ -85,6 +85,28 @@ body {
     width: 100%;
 }
 
+.error{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+
+.active{
+    opacity: 1;
+    z-index: 2;
+    color: #54E6AF;
+}
+
+.red {
+    opacity: 1;
+    z-index: 2;
+    color: red;
+}
+
 .emailValue {
     padding: 10px 10px 10px 32px;
     width: 100%;
@@ -200,6 +222,30 @@ body {
         margin: 40px 0 20px 0;
     }
 
+
+
+    .error{
+        position: absolute;
+        bottom: -20px;
+        left: 20px;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+    }
+
+
+    .active{
+        opacity: 1;
+        z-index: 2;
+        color: #54E6AF;
+    }
+
+    .red {
+        opacity: 1;
+        z-index: 2;
+        color: red;
+    }
+
     .child1 {
         position: absolute;
         top: 0;
@@ -278,6 +324,7 @@ body {
     }
 
 }
+
 
 
 /* Desktop Styles */
@@ -398,6 +445,29 @@ body {
         z-index: -1;
     }
 
+
+
+    .error{
+        position: absolute;
+        bottom: -20px;
+        left: 20px;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 400;
+    }
+
+
+    .active{
+        opacity: 1;
+        z-index: 2;
+        color: #54E6AF;
+    }
+
+    .red {
+        opacity: 1;
+        z-index: 2;
+        color: red;
+    }
     .request {
         padding: 10px;
         background-color: #54E6AF;
